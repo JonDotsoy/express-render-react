@@ -1,0 +1,38 @@
+{
+  "name": "@jondotsoy/express-render-react",
+  "version": "1.0.0",
+  "description": "Allow to express render react views",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.11.5"
+  },
+  "scripts": {
+    "build": "npm run --production buildProd",
+    "buildProd": "gulp --require babel-register build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonDotsoy/express-render-react.git"
+  },
+  "keywords": [],
+  "author": "Jonathan Delgado <hi@jon.soy> (https://jon.soy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonDotsoy/express-render-react/issues"
+  },
+  "homepage": "https://github.com/JonDotsoy/express-render-react#readme",
+  "peerDependencies": {
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.2.3"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-beta.3",
+    "babel-preset-env": "^7.0.0-beta.3",
+    "babel-preset-flow": "^7.0.0-beta.3",
+    "babel-preset-stage-1": "^7.0.0-beta.3",
+    "babel-register": "^7.0.0-beta.3",
+    "gulp-babel": "^7.0.0",
+    "gulp-cli": "^1.4.0",
+    "gulp": "^3.9.1"
+  }
+}
