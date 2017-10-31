@@ -1,6 +1,6 @@
 {
   "name": "@jondotsoy/express-render-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allow to express render react views",
   "main": "index.js",
   "engines": {

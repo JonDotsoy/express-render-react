@@ -1,6 +1,3 @@
 .babelrc.js
 gulpfile.js
-htmlTemplate.js
-index.js
 src
-styled.js
